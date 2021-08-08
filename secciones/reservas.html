@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/css/styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Hind:wght@700&family=Poppins:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/7e510cd920.js"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      href="https://fonts.googleapis.com/css?family=Raleway:400,800,300"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <title>Reservas</title>
+  </head>
+  <body>
+    <header class="header">
+      <nav class="header-item">
+        <a href="../index.html" class="logo">
+          <img
+            height="150"
+            width="150"
+            src="../imagenes/logo/logochilli.jpg"
+            alt="logoChilli"
+          />
+        </a>
+        <ul class="secciones">
+          <li><a href="../index.html">HOME</a></li>
+          <li><a href="./menu.html">MENU</a></li>
+          <li><a href="./nosotros.html">NOSOTROS</a></li>
+          <li><a href="./reservas.html">RESERVAS</a></li>
+          <li><a href="./delivery.html">DELIVERY</a></li>
+          <li><a href="./cronograma.html">SHOWS</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <section id="reservas">
+        <div class="container">
+          <div class="container-item">
+            <h4 class="container-item2"><u>Direccion</u></h4>
+            <p>Fructuoso Rivera 273, Cordoba Capital, Argentina</p>
+            <h4 class="container-item2"><u>Email</u></h4>
+            <p>chillistreetfood@gmail.com</p>
+          </div>
+        </div>
+        <form class="formulario-reservas">
+          <fieldset>
+            <legend><h3>RESERVAS</h3></legend>
+            <div>
+              <label for="nombre">Nombre completo</label>
+              <br />
+              <input type="text" id="nombre" name="nombrecompleto" />
+            </div>
+            <br />
+            <div>
+              <label for="telefono">Telefono</label>
+              <br />
+              <input type="tel" id="Telefono" name="Telefono" />
+            </div>
+            <br />
+            <div>
+              <label for="email">Correo electronico</label>
+              <br />
+              <input type="email" id="email" name="email" />
+            </div>
+            <br />
+            <div>
+              <label for="cantidadPersonas">Cuantas personas son</label>
+              <select name="cantidadPersonas" id="cantidadPersonas">
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="MAS">Mas de 4</option>
+              </select>
+            </div>
+            <br />
+            <div>
+              <label for="edad">Soy mayor de 18 años</label>
+              <input type="checkbox" id="Newslleter" name="edad" value="yes" />
+            </div>
+            <br />
+            <div>
+              <label for="Newslleter">Recibir promociones y beneficios</label>
+              <input
+                type="checkbox"
+                id="Newslleter"
+                name="promociones"
+                value="yes"
+              />
+            </div>
+            <br />
+            <input type="submit" value="Enviar" />
+            <input type="reset" value="Limpiar campos" />
+          </fieldset>
+        </form>
+      </section>
+    </main>
+    <footer>
+      <div class="item-footer2">
+        <p>
+          <em><strong>Coderhouse - Copyright © 2021</strong></em>
+        </p>
+      </div>
+    </footer>
+  </body>
+</html>
