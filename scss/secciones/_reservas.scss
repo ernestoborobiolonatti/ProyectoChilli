@@ -1,0 +1,38 @@
+#reservas {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  /* flex-flow: row nowrap; */
+  justify-content: center;
+  background-color: whitesmoke;
+  margin: 0;
+  align-items: flex-start;
+  font-size: 30px;
+  background-image: linear-gradient(to top, #e6e9f0 0%, #eef1f5 100%);
+}
+
+.container-reservas {
+  display: flex;
+  margin-right: 35px;
+  margin-left: 50px;
+  margin-top: 40px;
+  box-shadow: 1px 1px 10px;
+  border-style: solid;
+}
+
+.container-item {
+  height: 400px;
+  width: 500px;
+  text-align: center;
+}
+.container-item2 {
+  padding: 35px 0px;
+}
+
+.formulario-reservas {
+  display: flex;
+  margin-left: 100px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  text-align: center;
+}

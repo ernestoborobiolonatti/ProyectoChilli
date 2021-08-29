@@ -1,0 +1,139 @@
+.header {
+  box-shadow: 0 4px 5px;
+  margin: 0;
+  background-color: white;
+  .imglogo {
+    border-radius: 300px;
+  }
+}
+
+.slide {
+  margin-top: 10px;
+  .slide img {
+    height: 40vh;
+  }
+}
+
+.carousel {
+  position: relative;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  .carousel img {
+    border: solid;
+    border-radius: 10px;
+  }
+}
+
+.lorem {
+  position: relative;
+  text-align: center;
+  padding-bottom: 20px;
+  @media only screen and (min-width: 575px) {
+    .lorem {
+      padding-top: 50px;
+    }
+  }
+}
+
+.fraseHome {
+  font-family: "Hind", sans-serif;
+  font-size: 90px;
+  color: white;
+  background-color: black;
+  text-align: center;
+  letter-spacing: 4px;
+  border-style: solid;
+  .icono {
+    font-size: 20px;
+    color: rgb(5, 172, 5);
+    text-align: center;
+    align-items: center;
+  }
+}
+
+.fraseHome {
+  font-family: "Hind", sans-serif;
+  font-size: 90px;
+  color: white;
+  background-color: black;
+  text-align: center;
+  letter-spacing: 4px;
+  border-style: solid;
+  .icono {
+    font-size: 20px;
+    color: rgb(5, 172, 5);
+    text-align: center;
+    align-items: center;
+  }
+}
+
+.grid-container2 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 400px 10px;
+  padding: 20px;
+  gap: 5px;
+  justify-content: space-around;
+  .grid-item2 {
+    display: flex;
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+    border-style: solid;
+    .grid-item2:hover {
+      filter: opacity(0.9);
+      transform: scale(1.02);
+    }
+  }
+}
+
+.form {
+  position: relative;
+  text-align: center;
+  border: 1px solid;
+  border-radius: 5px;
+  padding-bottom: 40px;
+}
+
+.mapa {
+  padding-bottom: 20px;
+  padding-top: 40px;
+  .map-container-6 {
+    overflow: hidden;
+    padding-bottom: 56.25%;
+    position: relative;
+    height: 0;
+    .map-container-6 iframe {
+      left: 0;
+      top: 0;
+      height: 100%;
+      width: 100%;
+      position: absolute;
+    }
+  }
+}
+
+.redes {
+  font-size: 50px;
+  text-align: center;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+@media only screen and (min-width: 992px) {
+  .redes {
+    padding-right: 30px;
+    padding-left: 30px;
+    font-size: 20px;
+  }
+  .mapa {
+    padding-left: 50px;
+  }
+}
+
+.item-footer {
+  display: flex;
+  color: black;
+  font-size: 15px;
+  justify-content: center;
+}

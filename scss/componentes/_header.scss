@@ -1,0 +1,39 @@
+.header2 {
+  box-shadow: 0 4px 5px;
+  margin-bottom: 10px;
+  .header-item {
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+    margin: 0 auto;
+    .logo {
+      display: flex;
+      align-items: center;
+      margin-left: 100px;
+    }
+    .secciones {
+      display: flex;
+      list-style: none;
+      margin-left: 0;
+      padding: 0;
+      li {
+        padding: 0 40px;
+        .secciones a {
+          font-size: 50px;
+          font-weight: 400;
+          line-height: 150px;
+          .secciones a:hover {
+            background: rgb(224, 223, 223);
+            border-radius: 20px;
+            cursor: pointer;
+            filter: opacity(60%);
+            a {
+              text-decoration: none;
+              color: black;
+            }
+          }
+        }
+      }
+    }
+  }
+}

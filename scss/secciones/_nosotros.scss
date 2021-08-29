@@ -1,0 +1,34 @@
+.seccionNosotros {
+  text-align: center;
+  padding: 0;
+}
+.grid-nosotros {
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  box-shadow: 0 1px 5px rgba(0, 0, 0, 0.95);
+  border-radius: 15px;
+  padding: 0.5em 0.7em;
+  margin: 30px;
+  background-image: linear-gradient(to top, #dfe9f3 0%, white 100%);
+}
+.grid-nosotros2 {
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+  box-shadow: 0 1px 5px rgba(0, 0, 0, 0.95);
+  border-radius: 15px;
+  padding: 0.5em 0.7em;
+  margin: 30px;
+  background-image: linear-gradient(to top, #e6e9f0 0%, #eef1f5 100%);
+}
+.imagenNosotros {
+  border-style: solid;
+  border-radius: 300px;
+}
+
+.parrafoNosotros {
+  font-family: "Poppins", sans-serif;
+  font-size: 45px;
+  border-radius: 30px;
+  text-align: center;
+  padding-top: 80px;
+}
