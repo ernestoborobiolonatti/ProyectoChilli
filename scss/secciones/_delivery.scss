@@ -13,10 +13,7 @@
   border-radius: 300px;
 }
 .deliveryTitulo {
-  text-align: center;
-  background-color: rgb(243, 122, 101);
-  border-radius: 10px;
-  border: 1px solid;
+  @include titulo();
 }
 .deliveryParrafo {
   font-family: "Poppins", sans-serif;

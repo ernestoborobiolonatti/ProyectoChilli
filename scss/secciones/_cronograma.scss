@@ -4,10 +4,7 @@
   border-radius: 42px;
 }
 .seccionShowTitulo {
-  background-color: rgb(243, 122, 101);
-  border-radius: 10px;
-  text-align: center;
-  border: 1px solid;
+  @include titulo();
 }
 .grid-shows {
   display: grid;

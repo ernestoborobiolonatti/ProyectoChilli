@@ -8,3 +8,10 @@
 @import "./secciones/menu";
 @import "./secciones/nosotros";
 @import "./secciones/reservas";
+
+@mixin titulo {
+  background-color: rgb(243, 122, 101);
+  border-radius: 10px;
+  text-align: center;
+  border: 1px solid;
+}
