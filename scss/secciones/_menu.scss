@@ -1,0 +1,38 @@
+.seccionMenu {
+  text-align: center;
+  padding: 0;
+}
+.grid-menu2 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 50px 1fr 1fr 1fr;
+  gap: 20px;
+  place-content: center;
+  align-items: center;
+}
+.tituloPlatos {
+  grid-column-start: 1;
+  grid-column-end: 3;
+  text-align: center;
+  padding: 0;
+  background-color: rgb(243, 122, 101);
+  border-radius: 100px;
+  border: 1px solid;
+}
+.tituloTragos {
+  grid-column-start: 3;
+  grid-column-end: 5;
+  text-align: center;
+  padding: 0;
+  background-color: rgb(243, 122, 101);
+  border-radius: 100px;
+  border: 1px solid;
+}
+.imagenMenu {
+  border-radius: 50px;
+  box-shadow: 0 1px 5px rgba(0, 0, 0, 0.95);
+}
+.grid-menu-items {
+  text-align: center;
+  padding: 0;
+}

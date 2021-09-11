@@ -4,6 +4,12 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We"
+      crossorigin="anonymous"
+    />
     <link rel="stylesheet" href="../scss/style.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -24,25 +30,52 @@
   </head>
 
   <body>
-    <header class="header">
-      <nav class="header-item">
-        <a href="../index.html" class="logo">
-          <img
-            height="150"
-            width="150"
-            src="../imagenes/logo/logochilli.jpg"
-            alt="logoChilli"
-          />
-        </a>
-        <ul class="secciones">
-          <li><a href="../index.html">HOME</a></li>
-          <li><a href="./menu.html">MENU</a></li>
-          <li><a href="./nosotros.html">NOSOTROS</a></li>
-          <li><a href="./reservas.html">RESERVAS</a></li>
-          <li><a href="./delivery.html">DELIVERY</a></li>
-          <li><a href="./cronograma.html">SHOWS</a></li>
-        </ul>
-      </nav>
+    <header>
+      <div class="container">
+        <nav class="navbar navbar-expand-md navbar-light">
+          <a href="../index.html" class="navbar-brand"
+            ><img
+              height="100"
+              width="100"
+              src="../imagenes/logo/logochilli.jpg"
+              alt="logoChilli"
+              class="d-inline-block align-top"
+          /></a>
+          <button
+            class="navbar-toggler"
+            type="buttom"
+            data-bs-toggle="collapse"
+            data-bs-target="#toggleMobileMenu"
+            aria-controls="toggleMobileMenu"
+            aria-expanded="false"
+            aria-lable="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="toggleMobileMenu">
+            <ul class="navbar-nav ms-auto text-center">
+              <li>
+                <a class="nav-link" href="../index.html">HOME</a>
+              </li>
+              <li>
+                <a class="nav-link" href="./menu.html">MENU</a>
+              </li>
+              <li>
+                <a class="nav-link" href="./nosotros.html">NOSOTROS</a>
+              </li>
+              <li>
+                <a class="nav-link" href="./reservas.html">RESERVAS</a>
+              </li>
+              <li>
+                <a class="nav-link" href="./delivery.html">DELIVERY</a>
+              </li>
+              <li>
+                <a class="nav-link" href="./cronograma.html">SHOWS</a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+      </div>
     </header>
 
     <main>
@@ -103,5 +136,15 @@
         </p>
       </div>
     </footer>
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"
+      integrity="sha384-eMNCOe7tC1doHpGoWe/6oMVemdAVTMs2xqW4mwXrXsW0L84Iytr2wi5v2QjrP/xp"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.min.js"
+      integrity="sha384-cn7l7gDp0eyniUwwAZgrzD06kc/tftFf19TOAs2zVinnD/C7E91j9yyk5//jjpt/"
+      crossorigin="anonymous"
+    ></script>
   </body>
 </html>

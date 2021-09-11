@@ -5,9 +5,9 @@
 @import "./secciones/home";
 @import "./secciones/cronograma";
 @import "./secciones/delivery";
-@import "./secciones/menu";
-@import "./secciones/nosotros";
-@import "./secciones/reservas";
+@import "../scss/secciones/_menu";
+@import "../scss/secciones/nosotros";
+@import "../scss/secciones/reservas";
 
 @mixin titulo {
   background-color: rgb(243, 122, 101);
