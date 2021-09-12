@@ -21,16 +21,6 @@ html {
   height: 100%;
 }
 
-h2 {
-  font-size: 60px;
-  font-weight: 500;
-  -webkit-box-shadow: 0 2px 5px rgba(0, 0, 0, 0.95);
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.95);
-  border-radius: 42px;
-  padding: 0.5em 0.7em;
-  margin: 30px;
-}
-
 h3 {
   font-size: 40px;
 }
@@ -39,8 +29,13 @@ h3 {
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
   margin: 0;
+  padding: 0;
 }
 
+.mainContainer {
+  padding-bottom: 100px;
+  padding-top: 40px;
+}
 .header {
   box-shadow: 0 4px 5px;
   margin: 0;
@@ -70,7 +65,7 @@ h3 {
   position: relative;
   text-align: center;
   padding-bottom: 10px;
-  padding-top: 50px;
+  padding-top: 30px;
 }
 .textoLogo2 {
   padding: 15px;
@@ -84,61 +79,44 @@ h3 {
   padding-top: 10px;
 }
 
-.container-fraseHome {
-  padding-top: 40px;
-  border-radius: 100px;
-  border-color: black;
-  align-items: center;
-  text-align: center;
-  border-style: solid;
+.bienvenido {
+  font-family: "Pattaya", sans-serif;
+}
+#cards {
+  background-color: #f7fbfc;
+  padding: 30px 0px;
+}
+#cards h2 {
+  font-weight: 900;
+  font-size: 34px;
+  padding-bottom: 5px;
 }
 
-.fraseHome {
-  font-family: "Hind", sans-serif;
-  font-size: 90px;
-  color: whitesmoke;
-  letter-spacing: 4px;
-  font-weight: 500;
+.card-body {
+  box-shadow: 0 0 20px 7px rgba(0, 0, 0, 0.1);
+}
+.card {
+  margin: 20px 10px;
+}
+.card-body a {
+  color: #0c7f90;
+  text-decoration: none;
+  font-size: 15px;
+  margin-top: auto;
+  font-weight: 300;
+}
+.card-body a:hover {
+  color: #63a6b0;
+  text-decoration: none;
 }
 
-.fraseHome .icono {
-  font-size: 40px;
-  color: #05ac05;
-  text-align: center;
-}
-.sizeFraseHome {
-  font-size: 60px;
-}
-
-.grid-container2 {
-  display: -ms-grid;
-  display: grid;
-  -ms-grid-columns: 1fr 1fr 1fr 1fr;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
-  -ms-grid-rows: 400px 10px;
-  grid-template-rows: 400px 10px;
-  padding: 20px;
-  gap: 5px;
-  -ms-flex-pack: distribute;
-  justify-content: space-around;
-}
-
-.grid-container2 .grid-item2 {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  background-size: cover;
-  background-position: center;
-  border-radius: 10px;
-  border-style: solid;
-}
-
-.grid-item2:hover {
+.card-img-top:hover {
   filter: opacity(0.9);
   transform: scale(1.02);
 }
+
 .form2 {
-  padding-top: 60px;
+  padding-top: 150px;
 }
 .form {
   position: relative;
@@ -146,6 +124,7 @@ h3 {
   border: 1px solid;
   border-radius: 5px;
   padding-bottom: 40px;
+  box-shadow: 0 0 20px 7px rgba(0, 0, 0, 0.3);
 }
 
 .mapa {
@@ -198,17 +177,17 @@ h3 {
   justify-content: center;
 }
 
-.seccionShow {
-  text-align: center;
-  padding: 0;
-  border-radius: 42px;
-}
-
 .seccionShowTitulo {
   background-color: #f37a65;
-  border-radius: 10px;
   text-align: center;
   border: 1px solid;
+  border-radius: 42px;
+  padding: 0;
+  font-size: 60px;
+  font-weight: 500;
+  -webkit-box-shadow: 0 2px 5px rgba(0, 0, 0, 0.95);
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.95);
+  margin: 30px;
 }
 
 .grid-shows {
@@ -294,6 +273,12 @@ h3 {
 .seccionNosotros {
   text-align: center;
   padding: 0;
+  font-size: 60px;
+  font-weight: 500;
+  -webkit-box-shadow: 0 2px 5px rgba(0, 0, 0, 0.95);
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.95);
+  border-radius: 42px;
+  margin: 30px;
 }
 
 .grid-nosotros {
@@ -410,11 +395,16 @@ h3 {
   margin-bottom: 30px;
   text-align: center;
 }
-/*# sourceMappingURL=style.css.map */
 
 .seccionMenu {
   text-align: center;
   padding: 0;
+  font-size: 60px;
+  font-weight: 500;
+  -webkit-box-shadow: 0 2px 5px rgba(0, 0, 0, 0.95);
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.95);
+  border-radius: 42px;
+  margin: 30px;
 }
 .grid-menu2 {
   display: grid;
