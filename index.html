@@ -29,6 +29,7 @@
       rel="stylesheet"
       type="text/css"
     />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <meta name="description" content="Sitio web del Restaurante-Pub de Cordoba, Argentina, Chilli Street Food">
     <meta name="keywords" content="Pub, restaurante, musica, bandas en vivo, bares, comida mexicana, comida india, comida arabe, comida peruana, comida exotica, hamburguesa, tacos, cocktails, cerveza, artesanal, Cordoba, fiesta">
     <title>Chilli | Street Food</title>
@@ -169,7 +170,10 @@
               </button>
             </div>
           </div>
-          <div class="col-sm-12 col-lg-6 textoLogo align-self-center">
+          <div class="col-sm-12 col-lg-6 textoLogo align-self-center" data-aos="fade-left"
+          data-aos-anchor="#example-anchor"
+          data-aos-offset="500"
+          data-aos-duration="2000">
             <ul class="textoLogo2 text-center text-justify">
               <li>
                 <h1 class="bienvenido">Bienvenidos a ...</h1>
@@ -185,17 +189,21 @@
     alt="fondo pared" >
       <div class="container">
         <div class="row">        
-          <div class="col-md-4">
+          <div class="col-md-4" data-aos="flip-left"
+          data-aos-easing="ease-out-cubic"
+          data-aos-duration="2000">
             <div class="card text-center">
               <img src="./imagenes/platos/menu/plato2.jpg" alt="plato especialidad" class="card-img-top">
               <div class="card-body">
                 <h5 class="card-title">PLATOS</h5>
-                <p>Gran variedad de platos, para que tengas lo que elegir!</p>
+                <p>Gran variedad de platos, tenes mucho por elegir y probar!</p>
                 <a href="./secciones/menu.html">Quiero ver el menu</a>
               </div>
             </div>
           </div>
-          <div class="col-md-4">
+          <div class="col-md-4" data-aos="flip-left"
+          data-aos-easing="ease-out-cubic"
+          data-aos-duration="2500">
             <div class="card text-center">
               <img src="./imagenes/platos/Roger Barnes.jpg" alt="trago" class="card-img-top">
               <div class="card-body">
@@ -205,7 +213,9 @@
               </div>
             </div>
           </div>
-          <div class="col-md-4">
+          <div class="col-md-4" data-aos="flip-left"
+          data-aos-easing="ease-out-cubic"
+          data-aos-duration="3000">
             <div class="card text-center">
               <img src="./imagenes/bandas/bandas.jpg" alt="bandas" class="card-img-top">
               <div class="card-body">
@@ -222,7 +232,9 @@
     <section>
       <div class="container">
         <div class="row align-items-center form2">
-          <div class="d-none d-lg-block col-md-12 col-lg-4 col-xl-4">
+          <div class="d-none d-lg-block col-md-12 col-lg-5 col-xl-5" data-aos="fade-right"
+          data-aos-offset="600"
+          data-aos-easing="ease-in-sine">
             <form
               class="form"   
             >
@@ -266,57 +278,57 @@
                   ></textarea>
                   <label class="form-label" for="textAreaExample6"></label>
                 </div>
-                <input type="submit" value="Enviar" />
-                <input type="reset" value="Limpiar campos" />
+                <input type="submit" value="Enviar" class="enviar" />
+                <input type="reset" value="Limpiar campos" class="limpiar"/>
               </fieldset>
             </form>
           </div>
 
-          <div class="col-sm-12 col-md-12 col-lg-4 col-xl-4 redes">
+          <div class="d-none d-lg-block col-xl-7 redes" data-aos="fade-left"
+          data-aos-anchor="#example-anchor"
+          data-aos-offset="500"
+          data-aos-duration="500">
             <img
-              height="100"
-              width="100"
+              height="350"
+              width="350"
               src="./imagenes/logo/logo3.png"
               alt="logoChilli"
               class="d-inline-block align-top"
           />
             <p>
-              <em><strong class="bienvenido"> Chilli | Street Food</strong></em>
+              <em><strong class="textoFooterLogo"> Chilli | Street Food</strong></em>
             </p>
       
             <a href="https://www.facebook.com/chillistreetfood" target="_blanck"
-              ><i class="fab fa-facebook-square"></i
+              ><i class="icono fab fa-facebook-square"></i
             ></a>
       
             <a href="https://www.instagram.com/chillistreetfood/" target="_blanck"
-              ><i class="fab fa-instagram"></i
+              ><i class=" icono instagram fab fa-instagram"></i
             ></a>
-          </div>
-          <div class="col-md-12 col-lg-4 col-xl-4 mapa d-none d-lg-block">
-            <div
-              id="map-container-google-11"
-              class="z-depth-1-half map-container-6"
-              style="height: 400px"
-            >
-              <iframe
-                src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d2024.3751402225807!2d-64.19207934778619!3d-31.425706980150235!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xe2bd9b80a2518185!2sChilli%20Street%20Food!5e0!3m2!1ses-419!2sar!4v1627832478300!5m2!1ses-419!2sar"
-                width="600"
-                height="450"
-                style="border: 0"
-                allowfullscreen=""
-                loading="lazy"
-              ></iframe>
-            </div>
           </div>
         </div>
       </div>
     </section>
-    <footer>
-      <div class="item-footer">
-        <p>
-          <em><strong>Coderhouse - Copyright © 2021</strong></em>
-        </p>
-      </div>
+    <footer class="footer">
+      <ul class="lista">
+        <li>
+          <a href="./index.html">Home</a>
+        </li>
+        <li>
+          <a href="./secciones/nosotros.html">Nosotros</a>
+        </li>
+        <li>
+          <a href="./secciones/reservas.html">Reservas</a>
+        </li>
+        <li>
+          <a href="#">Terminos</a>
+        </li>
+        <li>
+          <a href="#">Politica de Privacidad</a>
+        </li>
+      </ul>
+      <p class="copyright">Coderhouse - Copyright © 2021</p>
     </footer>
     <script
       src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"
@@ -328,5 +340,9 @@
       integrity="sha384-cn7l7gDp0eyniUwwAZgrzD06kc/tftFf19TOAs2zVinnD/C7E91j9yyk5//jjpt/"
       crossorigin="anonymous"
     ></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
   </body>
 </html>
