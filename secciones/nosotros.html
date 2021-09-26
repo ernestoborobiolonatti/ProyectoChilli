@@ -26,6 +26,7 @@
       rel="stylesheet"
       type="text/css"
     />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
     <meta
       name="description"
       content="Sitio web del Restaurante-Pub de Cordoba, Argentina Chilli Street Food - seccion nosotros"
@@ -87,55 +88,64 @@
     </header>
 
     <main>
-      <h2 class="seccionNosotros">Chilli | Street Food</h2>
-      <div class="grid-nosotros">
-        <div>
-          <img
-            class="imagenNosotros"
-            src="../imagenes/nosotros/nosotros2.jpg"
-            width="500"
-            height="500"
-            alt="fachada"
-          />
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <h2 class="seccionNosotros">Chilli | Street Food</h2>
+          </div>
         </div>
-        <div>
-          <p class="parrafoNosotros">
-            Chilli nace en Marzo de 2018 como idea de un grupo de amigos
-            decididos a crear un espacio innovador en la noche cordobesa
-            mediante la prestación de platos tipicos de las gastronomias mas
-            importantes del mundo: la más alta calidad de la cocina Mexicana,
-            arabe e indu, entre otros.
-          </p>
+        <div
+          class="row seccionNosotros2"
+          data-aos="fade-left"
+          data-aos-anchor="#example-anchor"
+          data-aos-offset="500"
+          data-aos-duration="3000"
+        >
+          <div class="col-12 col-lg-6">
+            <img
+              class="imagenNosotros"
+              src="../imagenes/nosotros/nosotros2.jpg"
+              width="330"
+              height="330"
+              alt="fachada"
+            />
+          </div>
+          <div class="col-12 col-lg-6">
+            <p class="parrafoNosotros">
+              Chilli nace en Marzo de 2018 como idea de un grupo de amigos
+              decididos a crear un espacio innovador en la noche cordobesa
+              mediante la prestación de platos tipicos de las gastronomias mas
+              importantes del mundo: la más alta calidad de la cocina Mexicana,
+              arabe e indu, entre otros.
+            </p>
+          </div>
         </div>
-      </div>
-
-      <div class="grid-nosotros2">
-        <div>
-          <p class="parrafoNosotros">
-            En poco tiempo,con la ayuda de nuestros clientes, nos consolidamos
-            como uno de los espacios mas importantes para la cultura en la
-            capital de nuestra provincia.
-          </p>
-        </div>
-        <div>
-          <img
-            class="imagenNosotros"
-            src="../imagenes/nosotros/nosotros1.jpg"
-            width="500"
-            height="500"
-            alt="fachada1"
-          />
+        <div
+          class="row seccionNosotros3"
+          data-aos="fade-right"
+          data-aos-anchor="#example-anchor"
+          data-aos-offset="500"
+          data-aos-duration="3000"
+        >
+          <div class="col-12 col-lg-6">
+            <p class="parrafoNosotros">
+              En poco tiempo, con la ayuda de nuestros clientes, nos
+              consolidamos como uno de los espacios mas importantes para la
+              cultura en la capital de nuestra provincia.
+            </p>
+          </div>
+          <div class="col-12 col-lg-6">
+            <img
+              class="imagenNosotros"
+              src="../imagenes/nosotros/nosotros1.jpg"
+              width="330"
+              height="330"
+              alt="fachada1"
+            />
+          </div>
         </div>
       </div>
     </main>
-
-    <!-- ACA VOY A PONER DOS O TRES NOTAS EN LOS MEDIOS SOBRE EL BAR, QUE SE MUEVAN SOLAS -->
-    <section>
-      <div class="notas">
-        <h4><u>Chilli en los medios</u></h4>
-      </div>
-    </section>
-    <hr />
 
     <footer class="footer">
       <ul class="lista">
@@ -167,5 +177,9 @@
       integrity="sha384-cn7l7gDp0eyniUwwAZgrzD06kc/tftFf19TOAs2zVinnD/C7E91j9yyk5//jjpt/"
       crossorigin="anonymous"
     ></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
   </body>
 </html>
