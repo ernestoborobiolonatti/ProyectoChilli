@@ -23,7 +23,7 @@ html {
 }
 
 h3 {
-  font-size: 40px;
+  font-size: 30px;
   padding-top: 10px;
 }
 
@@ -324,13 +324,12 @@ h3 {
 .seccionNosotros {
   text-align: center;
   padding: 0;
-
   font-size: 40px;
   font-weight: 500;
   -webkit-box-shadow: 0 2px 5px rgba(0, 0, 0, 0.95);
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.95);
   border-radius: 55px;
-  margin: 30px;
+  margin: 30px 0px;
 }
 .seccionNosotros2 {
   text-align: center;
@@ -379,26 +378,8 @@ h3 {
   padding-bottom: 40px;
 }
 
-#reservas {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-  -ms-flex-direction: row;
-  flex-direction: row;
-  -ms-flex-wrap: wrap;
-  flex-wrap: wrap;
-  /* flex-flow: row nowrap; */
-  -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
-  background-color: whitesmoke;
-  margin: 0;
-  -webkit-box-align: start;
-  -ms-flex-align: start;
-  align-items: flex-start;
-  font-size: 30px;
+.reservas {
+  margin-top: 40px;
   background-image: -webkit-gradient(
     linear,
     left bottom,
@@ -407,21 +388,93 @@ h3 {
     to(#eef1f5)
   );
   background-image: linear-gradient(to top, #e6e9f0 0%, #eef1f5 100%);
+  overflow: hidden;
+  border-radius: 10px;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2);
 }
-
-.container-reservas {
-  display: -webkit-box;
-  display: -ms-flexbox;
+.reservasInfo {
+  position: relative;
+  background-image: url("../imagenes/home/fachada2.jpg");
+  background-size: cover;
+  background-position: center center;
   display: flex;
-  margin-right: 35px;
-  margin-left: 50px;
-  margin-top: 40px;
-  -webkit-box-shadow: 1px 1px 10px;
-  box-shadow: 1px 1px 10px;
-  border-style: solid;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+}
+.reservasInfo::before {
+  content: "";
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: #4090ecea;
+  opacity: 0.9;
+}
+.infoTitle,
+.infoItem {
+  position: relative;
+  z-index: 2;
+  color: white;
+}
+.infoTitle {
+  margin-bottom: 40px;
+}
+.infoTitle span {
+  font-size: 100px;
+  display: block;
+  text-align: center;
+  margin-bottom: 15px;
+}
+.infoTitle h2 {
+  font-size: 35px;
+  text-align: center;
+}
+.infoItem {
+  display: flex;
+  align-items: center;
+  font-size: 16px;
+  font-weight: 800;
+  margin-bottom: 10px;
+  padding: 10px;
+}
+.infoItem p {
+  padding: 7px;
+}
+.infoItem p span {
+  font-size: 20px;
+  margin-right: 10px;
+  margin-left: 5px;
+}
+.formularioReservas {
+  padding: 30px 40px;
+}
+.formReservasItem {
+  font-size: 25px;
+  font-weight: 400;
+  margin-bottom: 30px;
+}
+.checkbox {
+}
+.formularioReservas fieldset {
+  display: flex;
+  flex-direction: column;
+}
+.formularioReservas input,
+.formularioReservas textarea {
+  width: 100%;
+  border: none;
+  border-bottom: 2px solid #d1d1d1;
+  padding: 8px 0px 5px;
+  font-family: "Open sans";
+  color: #5a5a5a;
+  font-size: 14px;
+  font-weight: 400;
 }
 
-.container-item {
+/* .container-item {
   height: 400px;
   width: 500px;
   text-align: center;
@@ -429,7 +482,7 @@ h3 {
 
 .container-item2 {
   padding: 35px 0px;
-}
+} */
 
 .formulario-reservas {
   display: -webkit-box;
@@ -455,7 +508,6 @@ h3 {
   -webkit-box-shadow: 0 2px 5px rgba(0, 0, 0, 0.95);
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.95);
   border-radius: 42px;
-  padding: 10px;
   margin-top: 30px;
   margin-bottom: 20px;
 }

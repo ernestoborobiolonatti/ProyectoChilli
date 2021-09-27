@@ -86,7 +86,100 @@
     </header>
 
     <main>
-      <section id="reservas">
+      <section>
+        <div class="container reservas">
+          <div class="row">
+            <div
+              class="col-12 col-sm-6 col-md-6 col-lg-6 col-xl-6 reservasInfo"
+            >
+              <div class="infoTitle">
+                <span class="fa fa-user-circle"></span>
+                <h2>INFORMACION<br />DE CONTACTO</h2>
+              </div>
+              <div class="infoItem">
+                <p>Direccion:</p>
+                <p>Fructuoso Rivera 273, Cordoba Capital, Argentina</p>
+              </div>
+              <div class="infoItem">
+                <p><span class="fa fa-envelope"></span> Email:</p>
+                <p>chillistreetfood@gmail.com</p>
+              </div>
+            </div>
+            <div class="col-12 col-sm-6 col-md-6 col-lg-6 col-xl-6">
+              <form class="formularioReservas">
+                <fieldset>
+                  <legend><h3>RESERVAS</h3></legend>
+                  <div>
+                    <label class="formReservasItem" for="nombre"
+                      >Nombre completo*</label
+                    >
+                    <br />
+                    <input type="text" id="nombre" name="nombrecompleto" />
+                  </div>
+                  <br />
+                  <div>
+                    <label class="formReservasItem" for="telefono"
+                      >Telefono*</label
+                    >
+                    <br />
+                    <input type="tel" id="Telefono" name="Telefono" />
+                  </div>
+                  <br />
+                  <div>
+                    <label class="formReservasItem" for="email"
+                      >Correo electronico*</label
+                    >
+                    <br />
+                    <input type="email" id="email" name="email" />
+                  </div>
+                  <br />
+                  <div>
+                    <label class="formReservasItem" for="cantidadPersonas"
+                      >Cuantas personas son</label
+                    >
+                    <select name="cantidadPersonas" id="cantidadPersonas">
+                      <option value="2">2</option>
+                      <option value="3">3</option>
+                      <option value="4">4</option>
+                      <option value="MAS">Mas de 4</option>
+                    </select>
+                  </div>
+                  <br />
+                  <div>
+                    <label class="formReservasItem" for="edad"
+                      >Soy mayor de 18 años</label
+                    >
+                    <input
+                      class="checkbox"
+                      type="checkbox"
+                      id="Newslleter"
+                      name="edad"
+                      value="yes"
+                    />
+                  </div>
+                  <br />
+                  <div>
+                    <label class="formReservasItem" for="Newslleter"
+                      >Recibir promociones y beneficios</label
+                    >
+                    <input
+                      class="checkbox"
+                      type="checkbox"
+                      id="Newslleter"
+                      name="promociones"
+                      value="yes"
+                    />
+                  </div>
+                  <br />
+                  <input type="submit" value="Enviar" />
+                  <input type="reset" value="Limpiar campos" />
+                </fieldset>
+              </form>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- <section id="reservas">
         <div class="container-reservas">
           <div class="container-item">
             <h4 class="container-item2"><u>Direccion</u></h4>
@@ -145,7 +238,7 @@
             <input type="reset" value="Limpiar campos" />
           </fieldset>
         </form>
-      </section>
+      </section> -->
     </main>
     <footer class="footer">
       <ul class="lista">
