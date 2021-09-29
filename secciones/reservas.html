@@ -110,33 +110,25 @@
                 <fieldset>
                   <legend><h3>RESERVAS</h3></legend>
                   <div>
-                    <label class="formReservasItem" for="nombre"
-                      >Nombre completo*</label
-                    >
+                    <label for="nombre">Nombre completo*</label>
                     <br />
                     <input type="text" id="nombre" name="nombrecompleto" />
                   </div>
                   <br />
                   <div>
-                    <label class="formReservasItem" for="telefono"
-                      >Telefono*</label
-                    >
+                    <label for="telefono">Telefono*</label>
                     <br />
                     <input type="tel" id="Telefono" name="Telefono" />
                   </div>
                   <br />
                   <div>
-                    <label class="formReservasItem" for="email"
-                      >Correo electronico*</label
-                    >
+                    <label for="email">Correo electronico*</label>
                     <br />
                     <input type="email" id="email" name="email" />
                   </div>
                   <br />
                   <div>
-                    <label class="formReservasItem" for="cantidadPersonas"
-                      >Cuantas personas son</label
-                    >
+                    <label for="cantidadPersonas">Cuantas personas son</label>
                     <select name="cantidadPersonas" id="cantidadPersonas">
                       <option value="2">2</option>
                       <option value="3">3</option>
@@ -145,12 +137,9 @@
                     </select>
                   </div>
                   <br />
-                  <div>
-                    <label class="formReservasItem" for="edad"
-                      >Soy mayor de 18 años</label
-                    >
+                  <div class="checkbox">
+                    <label for="edad">Soy mayor de 18 años*</label>
                     <input
-                      class="checkbox"
                       type="checkbox"
                       id="Newslleter"
                       name="edad"
@@ -158,87 +147,34 @@
                     />
                   </div>
                   <br />
-                  <div>
-                    <label class="formReservasItem" for="Newslleter"
+                  <div class="checkbox">
+                    <label for="Newslleter"
                       >Recibir promociones y beneficios</label
                     >
                     <input
-                      class="checkbox"
                       type="checkbox"
                       id="Newslleter"
                       name="promociones"
                       value="yes"
                     />
                   </div>
-                  <br />
-                  <input type="submit" value="Enviar" />
-                  <input type="reset" value="Limpiar campos" />
                 </fieldset>
+                <div class="row">
+                  <div class="col-6 col-sm-6 col-md-6 col-lg-6 col-xl-6">
+                    <input class="botonItem" type="submit" value="Enviar" />
+                  </div>
+                  <div class="col-6 col-sm-6 col-md-6 col-lg-6 col-xl-6">
+                    <input
+                      class="botonItem"
+                      type="reset"
+                      value="Limpiar campos"
+                    />
+                  </div>
               </form>
             </div>
           </div>
         </div>
       </section>
-      <!-- <section id="reservas">
-        <div class="container-reservas">
-          <div class="container-item">
-            <h4 class="container-item2"><u>Direccion</u></h4>
-            <p>Fructuoso Rivera 273, Cordoba Capital, Argentina</p>
-            <h4 class="container-item2"><u>Email</u></h4>
-            <p>chillistreetfood@gmail.com</p>
-          </div>
-        </div>
-        <form class="formulario-reservas">
-          <fieldset>
-            <legend><h3>RESERVAS</h3></legend>
-            <div>
-              <label for="nombre">Nombre completo</label>
-              <br />
-              <input type="text" id="nombre" name="nombrecompleto" />
-            </div>
-            <br />
-            <div>
-              <label for="telefono">Telefono</label>
-              <br />
-              <input type="tel" id="Telefono" name="Telefono" />
-            </div>
-            <br />
-            <div>
-              <label for="email">Correo electronico</label>
-              <br />
-              <input type="email" id="email" name="email" />
-            </div>
-            <br />
-            <div>
-              <label for="cantidadPersonas">Cuantas personas son</label>
-              <select name="cantidadPersonas" id="cantidadPersonas">
-                <option value="2">2</option>
-                <option value="3">3</option>
-                <option value="4">4</option>
-                <option value="MAS">Mas de 4</option>
-              </select>
-            </div>
-            <br />
-            <div>
-              <label for="edad">Soy mayor de 18 años</label>
-              <input type="checkbox" id="Newslleter" name="edad" value="yes" />
-            </div>
-            <br />
-            <div>
-              <label for="Newslleter">Recibir promociones y beneficios</label>
-              <input
-                type="checkbox"
-                id="Newslleter"
-                name="promociones"
-                value="yes"
-              />
-            </div>
-            <br />
-            <input type="submit" value="Enviar" />
-            <input type="reset" value="Limpiar campos" />
-          </fieldset>
-        </form>
-      </section> -->
     </main>
     <footer class="footer">
       <ul class="lista">
